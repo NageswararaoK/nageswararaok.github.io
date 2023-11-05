@@ -1,0 +1,29 @@
+/* Style the sidebar */
+.sidebar {
+    width: 200px;
+    background-color: #333;
+    padding: 20px;
+}
+
+/* Style the navigation links */
+.sidebar ul {
+    list-style-type: symbols(*);
+    padding: 0;
+}
+
+.sidebar li {
+    margin: 0;
+}
+
+.sidebar li a {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 10px 0;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+.sidebar li a:hover {
+    background-color: #444;
+}
