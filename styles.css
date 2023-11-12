@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    text-align: left;
+}
+
+header {
+    background-color: blue;
+    color: white;
+    padding: 1px 10px 1px 20px;
+    text-align: center;
+    position: relative;
+}
+
+footer {
+    background-color: blue;
+    color: #fff;
+    /* Setting padding for top (5px), right (10px), bottom (15px), and left (20px) */
+    /*padding: 2px 10px 2px 20px;*/
+    text-align: center;
+    display: block;
+}
+
+h3 {
+    color: black;
+}
+
+h4 {
+    font-weight: normal;
+}
+
+p {
+    color: blue;
+    text-align: justify;
+}
+
+li {
+    color: blue;
+    text-align: justify;
+}
+
+/* Add a hover effect */
+a:hover {
+    color: red; /* Change to the desired color */
+    /*background-color: yellow;*/
+    /*font-weight: bold;*/
+}
+
+nav a {
+    display: block;
+    color: yellow;
+    text-align: center;
+    padding: 2px 10px 2px 20px;
+    text-decoration:none;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+.passport-photo {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 100px; /* Adjust the size as needed */
+    height: 100px;
+    border-radius: 100%;
+}
+
+/* Define a CSS rule to change the font color of the span element */
+.colored-word {
+    color: red;    /* Change word color to your desired color value */
+
+}
