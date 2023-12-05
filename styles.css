@@ -80,3 +80,36 @@ nav li {
     color: red;    /* Change word color to your desired color value */
 
 }
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 16px; /* Adjust the font size for better readability on smaller screens */
+    }
+
+    header {
+        text-align: center; /* Center header content on smaller screens */
+    }
+
+    .passport-photo {
+        width: 100%; /* Make the passport photo full width on smaller screens */
+    }
+
+    nav {
+        text-align: center; /* Center the navigation links on smaller screens */
+    }
+
+    ul.links {
+        padding: 0;
+    }
+
+    section {
+        padding: 20px; /* Add some padding to sections on smaller screens */
+    }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Add tablet-specific styles here if needed */
+}
