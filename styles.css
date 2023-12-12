@@ -11,6 +11,7 @@ header {
     padding: 1px 10px 1px 20px;
     text-align: center;
     position: relative;
+    z-index: 1;
 }
 
 footer {
@@ -72,8 +73,9 @@ nav li {
     top: 15px;
     right: 15px;
     width: 100px; /* Adjust the size as needed */
-    height: 100px;
+    height: auto;
     border-radius: 100%;
+    z-index: 2;
 }
 
 /* Define a CSS rule to change the font color of the span element */
@@ -94,6 +96,7 @@ nav li {
 
     .passport-photo {
         width: 100%; /* Make the passport photo full width on smaller screens */
+        position: static; /* or any other appropriate positioning for mobile */
     }
 
     nav {
@@ -120,7 +123,7 @@ nav li {
     transition:color 0.2s;
     text-decoration: none;
     margin-right: 15px; /* Spacing between social icons */
-    font-size: 32px;    /* Size of social icons */
+    font-size: 28px;    /* Size of social icons */
   }
 
   .social-icon:hover {
